@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-... (các giá trị mã hash)" crossorigin="anonymous" />
+    <title>Toys Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo"><img src="image/logosung-removebg-preview.png">
+    </div>
+    <div class="menu">
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="cartegory.html">Shop</a>
+                <ul class="tab-menu">
+                    <li><a href="dcdktx.html">Đồ chơi điểu khiển từ xa</a></li>
+                    <li><a href="lego.html">Đồ chơi lắp ghép LEGO</a></li>
+                </ul>
+            </li>
+            <li><a href="product.html">Khuyến mại</a></li>
+            <li><a href="sungdanshop.html">NERF</a>
+                <ul class="ta-menu">
+                    <li><a href="snf.html">Súng NERF Fortnite</a></li>
+                    <li><a href="snu.html">Súng NERF Ultra</a></li>
+                </ul>
+            </li>
+    </div>
+    <div class="others">
+            <li><input placeholder="Search" type="text"> <i class="search"><img src="image/iconsearch.png"></i></li>
+            <li> <a href="cart.html"> <img src="image/icongiohang.jpg"></a></li>
+            <li> <a class="lienhe"> <img src="image/iconlienhe.png"></a></li>
+    </div>
+</header><br>
+<!------------------------------------- cart------------------------------- -->
+<section class="cart">
+    <div class="container">
+        <div class="cart-top-wrap">
+            <div class="cart-top">
+                <div class="cart-top-cart cart-top-item">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="cart-top-address cart-top-item">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <div class="cart-top-payment cart-top-item">
+                    <i class="fas fa-money-check"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cart-conten row">
+            <div class="cart-conten-left">
+                <table>
+                    <tr>
+                        <th>Sản phầm</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Màu</th>
+                        <th>Số lượng</th>
+                        <th>Giá</th>
+                        <th>Xóa</th>
+                    </tr>
+                    <tr>
+                        <td><img src="image/sp1.jpg" alt=""></td>
+                        <td><p>BWM M1000RR – Tỉ Lệ 1:5 1920 PCS</p></td>
+                        <td><select name="" id="">
+                            <option value="">Chọn màu</option>
+                            <option value="">Đen</option>
+                            <option value="">Tan</option>
+                        </select></td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td><p>520.000<sup style="color: red;">đ</sup></p></td>
+                        <td><span>X</span></td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/sung5.webp" alt=""></td>
+                        <td><p>PDX Blowback + Bánh răng kim loại</p></td>
+                        <td><select name="" id="">
+                            <option value="">Chọn màu</option>
+                            <option value="">Đen</option>
+                            <option value="">Tím</option>
+                        </select></td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td><p>1.450.000<sup style="color: red;">đ</sup></p></td>
+                        <td><span>X</span></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="cart-conten-right">
+                <table>
+                   <tr>
+                        <th colspan="2">Tổng tiền giỏ hàng</th>
+                   </tr>
+                   <tr>
+                        <td>Tổng sản phẩm</td>
+                        <td>2</td>
+                   </tr>
+                   <tr>
+                        <td>Tổng tiền hàng</td>
+                        <td>1.970.000 <sup style="color: red;">đ</sup></td>
+                   </tr>
+                        <td>Tạm tính</td>
+                        <td><p style="color: black; font-weight: bold;">1.970.000<s>đ</s></p></td>
+                </table>
+                <div class="cart-conten-right-text">
+                    <p>Mua trên 2tr để có khuyến mãi miễn ship</p>
+                    <p style="color: rgb(215, 27, 27); font-weight: bold;">Mua thêm <span style="font-size: 20px;">200.000đ </span>Để được miễn ship</p>
+                </div>
+                <div class="cart-conten-right-bottom">
+                    <button><a href="cartegory.html">Tiếp tục mua sắm</a></button>
+                    <button><a href="delivery.html" style="color: aliceblue;">Thanh toán</a></button>
+                </div>
+                <div class="cart-conten-right-dangnhap">
+                    <p style="color: black; font-weight: bold; font-size: 17px;">Tài khoản</p> <br>
+                    <p>Hay <a href="" style="color: red;"> Đăng nhập</a> Tài khoản để được tích điểm thành viên</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+<!------------------------------------app-container--------------------------->
+<section class="app-container">
+    <p>Download App</p>
+    <div class="app-google">
+            <img src="image/googleplay.png">
+            <img src="image/appstore.png">
+    </div>
+    <p>Receive information from us</p>
+    <input type="text" placeholder="Enter your email...">
+</section>
+<!------------------------------footer----------------------------->
+<div class="footer-top">
+    <li><a href="" class="abc"><img src="image/dcm.png"></a></li>
+    <li><a href="">Contact</a></li>
+    <li><a href="">Recruitment</a></li>
+    <li><a href="">Introduce</a></li>
+    <li>
+            <a href="" class="fb"><img src="image/iconfb.png"></a>
+            <a href="" class="zl"><img src="image/iconzl.png"></a>
+            <a href="" class="yt"><img src="image/iconyt.png"></a>
+    </li>
+</div>
+<div class="footer-center">
+    <p>Multinaitonal joint stock company with business registration number: 17022003<br>
+            Registered address: Residental group Vien, Ward.Duc Thang, District.Bac Tu Liem, City.Ha Noi, Viet Nam-641824612<br>
+            Order online: <b>0374 298 2434</b>.
+    </p>
+</div>
+<div class="footer-bottom">
+   @Garatoy ALL right reserved 
+</div>
+</body>
+<script src="script.js"></script>
+</html>
